@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: duffrind
-      url-base: https://github.com/duffrind
+    - name: Charghoul
+      url-base: https://github.com/Charghoul
   projects:
     - name: zmk
-      remote: duffrind
+      remote: Charghoul
       revision: main
       import: app/west.yml
   self:
