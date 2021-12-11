@@ -35,13 +35,13 @@
 // ------------------------------------------------------------------------------------------------------------
 // | BT_CLR | F1 | F2 |    F3 |  F4 |  F5 | &trans     &trans     |  F6  |   F7  |    F8 |   F9 |   F10 | F11   |
 // |  F1   |  F2 |  F3 |   €  |PG_UP  |  F6  |                      |  F7  |  Ü    |  UP   |  Ö   |  F11  |  F12  |  
-// |   `   |  Ä  |  HOME| END | PG_DN |  %   |                   |  ^   |  LEFT |  DOWN | RIGHT|   )   |   ~   |
+// |   `   |  Ä  |  ss| END | PG_DN |  %   |                   |  ^   |  LEFT |  DOWN | RIGHT|   )   |   ~   |
 // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
-&bt BT_CLR &kp F1    &kp F2    &kp F3     &kp F4     &kp F5   &trans &trans      &kp F6    &kp F7    &kp F8   &kp F9     &kp F10    &kp F11
-&kp DEL    &kp F2    &kp F3    &kp RA(N5) &kp PG_UP  &kp F6                      &kp F7    &kp RA(Y) &kp UP   &kp RA(P)  &kp F11    &kp F12
-&kp LCTRL  &kp RA(Q) &kp HOME  &kp END    &kp PG_DN  &kp PRCNT                   &kp CARET &kp LEFT  &kp DOWN &kp RIGHT  &kp RPAR   &kp TILDE
+&bt BT_CLR &kp F1    &kp F2    &kp F3      &kp F4     &kp F5   &trans &trans      &kp F6    &kp F7    &kp F8   &kp F9     &kp F10    &kp F11
+&kp DEL    &kp HOME    &kp END    &kp RA(N5)  &kp PG_UP  &kp F6                      &kp F7    &kp RA(Y) &kp UP   &kp RA(P)  &kp F11    &kp F12
+&kp LCTRL  &kp RA(Q) &kp RA(S)  &kp END    &kp PG_DN  &kp PRCNT                   &kp CARET &kp LEFT  &kp DOWN &kp RIGHT  &kp RPAR   &kp TILDE
 &kp LSHIFT &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans &trans &trans &trans &trans &kp MINUS  &kp EQUAL  &kp LBRC  &kp RBRC  &kp PIPE
                                  &kp LALT &kp LGUI &trans     &kp DEL  &kp RET   &trans &trans &trans
             >;
@@ -53,13 +53,13 @@
 // ------------------------------------------------------------------------------------------------------------
 // | BT_CLR | F1 | F2 |    F3 |  F4 |  F5 | &trans     &trans     |  F6  |   F7  |    F8 |   F9 |   F10 | F11   |
 // |  F1   |  F2 |  F3 |   €  |PG_UP  |  F6  |                      |  F7  |  Ü    |  UP   |  Ö   |  F11  |  F12  |  
-// |   `   |  Ä  |  HOME| END | PG_DN |  %   |                   |  ^   |  LEFT |  DOWN | RIGHT|   )   |   ~   |
+// |   `   |  Ä  |  ss| END | PG_DN |  %   |                   |  ^   |  LEFT |  DOWN | RIGHT|   )   |   ~   |
 // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
-&bt BT_CLR &kp F1     &kp F2  &kp F3     &kp F4         &kp F5         &trans &trans    &kp F6    &kp F7    &kp F8   &kp F9     &kp F10    &kp F11
-&kp DEL     &kp F2    &kp F3   &kp RA(N5)    &kp PG_UP      &kp F6                       &kp F7    &kp RA(Y) &kp UP   &kp RA(P)   &kp F11   &kp F12
-&kp LCTRL  &kp RA(Q) &kp HOME  &kp END   &kp PG_DN  &kp PRCNT                    &kp CARET &kp LEFT  &kp DOWN &kp RIGHT  &kp RPAR  &kp TILDE
+&bt BT_CLR &kp F1    &kp F2    &kp F3      &kp F4     &kp F5      &trans &trans    &kp F6    &kp F7    &kp F8   &kp F9     &kp F10    &kp F11
+&kp DEL    &kp HOME    &kp END    &kp RA(N5)  &kp PG_UP  &kp F6                       &kp F7    &kp RA(Y) &kp UP   &kp RA(P)   &kp F11   &kp F12
+&kp LCTRL  &kp RA(Q) &kp RA(S) &kp END     &kp PG_DN  &kp PRCNT                    &kp CARET &kp LEFT  &kp DOWN &kp RIGHT  &kp RPAR  &kp TILDE
 &kp LSHIFT  &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans &trans    &trans   &trans    &trans    &kp MINUS &kp EQUAL     &kp LBRC  &kp RBRC  &kp PIPE
                                                &kp LALT &kp LGUI &trans    &kp DEL   &kp RET    &trans &trans &trans 
             >;
