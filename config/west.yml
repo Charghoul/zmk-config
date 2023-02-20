@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: Charghoul
-      url-base: https://github.com/Charghoul
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: Charghoul
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:
